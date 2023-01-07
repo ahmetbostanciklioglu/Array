@@ -2,8 +2,8 @@
 Properties and methods of arrays
 
 
-**Array**
 
+**Array**
 ```
 let arrayString = [12, 23, 34, 345, 1]
 print(arrayString.count)
