@@ -21,15 +21,15 @@ var arrayProperty = [Int]()
 for index in 2...8 {
     arrayProperty.append(index) // append index values
 }
-arrayProperty.count > 6. //true //index number of the arrayProperty
+arrayProperty.count > 6 //true //index number of the arrayProperty
 
 
 let arrayProperty2 = ["1", "2","3", "4"]
 arrayProperty2.firstIndex(of: "1") == 3 // false, because "1" is 0th index
 
 var arrayProperty3 = ["1", "4"]
-arrayProperty4.contains("4") // true
+arrayProperty3.contains("4") // true
 
 var arrayProperty4 = [17, 46, 9]
-arrayProperty5.sorted() == [9, 17, 46] // true
+arrayProperty4.sorted() == [9, 17, 46] // true
 ```
