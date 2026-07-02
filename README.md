@@ -1,35 +1,48 @@
-# Array
-Properties and methods of arrays
+<div align="center">
 
+# 📚 Swift Basics: Array
 
+**A concise, runnable playground exploring Swift array properties and methods.**
 
-**Array**
+![Platform](https://img.shields.io/badge/Platform-iOS-blue?style=flat-square)
+![Swift](https://img.shields.io/badge/Swift-5-orange?style=flat-square&logo=swift)
+![Playground](https://img.shields.io/badge/Xcode-Playground-1575F9?style=flat-square&logo=xcode)
+![Stars](https://img.shields.io/github/stars/ahmetbostanciklioglu/Array?style=flat-square&color=6E48AA)
+![Last Commit](https://img.shields.io/github/last-commit/ahmetbostanciklioglu/Array?style=flat-square&color=4776E6)
+
+</div>
+
+## 📖 Overview
+
+Arrays are ordered collections that store multiple values of the same type in Swift. This playground is a short, hands-on learning example that demonstrates how to create arrays, inspect them, and transform them using Swift's built-in properties and methods. Every line is runnable inside an Xcode playground so you can see the results immediately.
+
+## ✨ What it covers
+
+- Creating arrays with literals and an empty typed array (`[Int]()`).
+- Reading the element count with `.count`.
+- Adding elements with `.append(_:)` and removing them with `.remove(at:)`.
+- Locating elements with `.firstIndex(of:)` and checking membership with `.contains(_:)`.
+- Sorting with `.sorted()` and populating an array inside a `for` loop over a range.
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/ahmetbostanciklioglu/Array.git
+cd Array
+unzip Array.playground.zip
+open Array.playground
 ```
-let arrayString = [12, 23, 34, 345, 1]
-print(arrayString.count)
 
+Open `Array.playground` in Xcode and run each line to view the results in the playground sidebar.
 
-var array = ["First index of array"]
-print(array.count)
-array.append("Second index of array")
-array.firstIndex(of: "Second index of array") // true because it "Second index of array" is existed in the array
-print(array.sorted()) // ["First index of array", "Second index of array"]
-array.remove(at: 0) //  "First index of array"
+## 📋 Requirements
 
+- Xcode 12 or later
+- Swift 5+
+- iOS playground target
 
-var arrayProperty = [Int]()
-for index in 2...8 {
-    arrayProperty.append(index) // append index values
-}
-arrayProperty.count > 6 //true //index number of the arrayProperty
+## 🧑‍💻 Author
 
+**Ahmet Bostancıklıoğlu** — [@ahmetbostanciklioglu](https://github.com/ahmetbostanciklioglu) · ahmetbostancikli@gmail.com
 
-let arrayProperty2 = ["1", "2","3", "4"]
-arrayProperty2.firstIndex(of: "1") == 3 // false, because "1" is 0th index
-
-var arrayProperty3 = ["1", "4"]
-arrayProperty3.contains("4") // true
-
-var arrayProperty4 = [17, 46, 9]
-arrayProperty4.sorted() == [9, 17, 46] // true
-```
+> ⭐ If this helped you, consider giving the repo a star!
